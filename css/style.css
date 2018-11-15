@@ -14,6 +14,10 @@ body, html {
 	background-color: #0079b5;
 }
 
+#footer {
+	display: flex;
+	justify-content: space-around;
+}
 
 /*KONRAD*/
 
