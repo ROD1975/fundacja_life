@@ -3,6 +3,12 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under the MIT license
  */
+// A $( document ).ready() block.
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
+
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
