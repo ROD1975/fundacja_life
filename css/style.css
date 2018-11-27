@@ -19,10 +19,18 @@ body, html {
 .btn-primary {
 	background-color: #0079b5;
 }
+
+.fundacja {
+	font-size: 50px !important;
+}
 /*.modal-kb {
 	overflow-y: scroll;
 	max-height: 600px;
 }*/
+
+.contact-bcg-color {
+	background: #e5e5e5 !important;
+}
 #footer {
 	display: flex;
 	justify-content: space-around;
