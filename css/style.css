@@ -30,7 +30,14 @@ body, html {
 	overflow-y: scroll;
 	max-height: 600px;
 }*/
-
+.darowizny {
+	font-size: 25px !important;
+	margin: 25px;
+	color: white !important;
+}
+.darowizny:hover {
+	color: grey !important;
+}
 .contact-bcg-color {
 	background: #e5e5e5 !important;
 }
