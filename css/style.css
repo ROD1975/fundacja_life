@@ -22,7 +22,9 @@ body, html {
 .btn-primary {
 	background-color: #0079b5;
 }
-
+hr {
+	width: 250px !important;
+}
 .fundacja {
 	font-size: 50px !important;
 }
@@ -41,11 +43,25 @@ body, html {
 .contact-bcg-color {
 	background: #e5e5e5 !important;
 }
+
+.kontakt-link {
+  color: #337ab7 !important;
+}
+
+.more-info {
+	color: white !important;
+}
+
+.more-info-bcg {
+	background: grey !important;
+}
+
 #footer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
+
 
 /*KONRAD*/
 
