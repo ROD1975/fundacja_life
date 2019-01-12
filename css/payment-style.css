@@ -1,0 +1,61 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+	background: #0079b5;
+}
+
+.payment-title {
+	padding: 25px;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 25px;
+	/*border-bottom: 1px solid white;*/
+	box-shadow: 0 8px 6px -6px black;
+}
+table {
+	margin-bottom: 25px;
+}
+td {
+	color: white;
+}
+
+.data-input {
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+}
+.dotpay-icon {
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
+	transition: all .2s ease-in-out;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.dotpay-icon:hover {
+	box-shadow: 0 15px 12px -5px black;
+	transition: all .2s ease-in-out;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.data-input {
+		max-width: 90%;
+		display: block;
+	}
+	tr {
+
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}

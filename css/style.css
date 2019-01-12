@@ -32,13 +32,23 @@ hr {
 	overflow-y: scroll;
 	max-height: 600px;
 }*/
+.payment-form {
+	margin-bottom: 25px;
+}
 .darowizny {
 	font-size: 20px !important;
 	margin: 25px;
 	color: white !important;
+	border: 1px solid white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	
+
 }
+
 .darowizny:hover {
-	color: grey !important;
+	background: #006ca2 !important;
 }
 .contact-bcg-color {
 	background: #e5e5e5 !important;
@@ -56,11 +66,51 @@ hr {
 	background: grey !important;
 }
 
+.darowizny {
+	margin-top: 20px !important;
+	padding: 10px;
+	transition: all .2s ease-in-out;
+}
+
+.darowizny:hover {
+	
+	color: white !important;
+	/*background: #1986bc;*/
+	padding: 10px;
+	box-shadow: 0 8px 6px -6px black;
+	transition: all .2s ease-in-out;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+
+
 #footer {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
+
+/*PAYMANT*/
+.front-dotpay {
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
+	transition: all .2s ease-in-out;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.front-dotpay:hover {
+	box-shadow: 0 15px 12px -5px black;
+	transition: all .2s ease-in-out;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/*PAYMANT*/
+
+
 
 
 /*KONRAD*/
@@ -138,7 +188,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #3f5050;
+	background-color: black;
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
@@ -593,4 +643,31 @@ color: #777;
 #footer a:hover {
 	color: #ccc;
 }
+
+/*KONRAD*/
+
+@media only screen and (max-width: 600px) {
+  
+  .fundacja {
+  	font-size: 20px !important;
+  }
+  .darowizny {
+  	font-size: 12px !important;
+  	line-height: 50px;
+  }
+  .darowizny > span {
+  	padding-bottom: 25px !important;
+  }
+  #footer {
+	display: block;
+	
+	}
+#footer > a {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	}
+}
+
+/*KONRAD*/
 

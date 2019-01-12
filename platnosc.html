@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Fundacja 4life-WSPIERAM</title>
+	<link rel="icon" href="img/life.gif" type="image/gif" sizes="16x16">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/payment-style.css">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+<body>
+<!-----------------------------
+
+	Górna czêœæ strony
+
+------------------------------------->
+
+	<div class="paymant-mobile" align="center">
+		<form action="https://ssl.dotpay.pl/" method="post" target="_parent">
+			<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" class="payment-title">
+				<p>Wybierz kwotę darowizny</p>
+			</div>
+
+			<p>
+				<table>
+					<tr>
+						<td ><span>Opis:</span><br/><input class="data-input" type="text" name="description" value="Darowizna" size="20"/></td>
+						<td >Kwota:<br/><input class="data-input" type="text" name="amount" id="kwota" size="5" value="50PLN"/></td>
+					</tr>
+				</table>
+
+			<!--------------------------------- KONFIGURACJA --------------------------------------->  
+
+				<input type="hidden" name="id" value="331372"/><!---- zamiast 000000 nalezy podstawic numer ID w Dotpay -->
+				<input type="hidden" name="url" value="http://fundacja4life.org/"/> <!--- Ardes URL powrotu do sklepu--->
+				<input type="hidden" name="buttontext" value="Powrót do sprzedawcy"/>
+			</p> <!-- Tekst przycisku powrotu do sklepu --->
+
+			<input type="hidden" name="type" value="0"/>
+
+			<!--------------------------------- KONIEC KONFIGURACJi --------------------------------------->  
+
+			<p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" ><input class="dotpay-icon" type="image" src="https://ssl.dotpay.pl/img/dotpay_b2_160x83.gif" /></p>
+		</form>
+	</div>
+
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
